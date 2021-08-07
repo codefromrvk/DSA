@@ -1,0 +1,29 @@
+Question 1 :
+What is the time complexity T(n) for the following code snippet?
+a = 1
+b = 1
+while(b <= n)
+{
+a += 1
+b += 1
+cout<<"Hi";
+}
+
+
+Answer: T(n) = O(n)
+The loop repeats for n times
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question 2 :
+Write the output for the following recursive code snippet for n = 3:
+void fun(int n)
+{
+if(n > 0)
+{
+cout<<n:
+fun(n - 1);
+cout<<n;
+}
+}
+
+Answer : 3 2 1 1 2 3
+The first cout statement prints :3 2 1 and the second statement prints : 1 2 3. The reason here is because of recursion function it holds the execution of that cout statement and the outputs will appear in reverse order.
